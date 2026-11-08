@@ -87,7 +87,6 @@ xe-tu-hanh-esp32/
 5. Nếu xe chạy sai chiều, ngắt nguồn động cơ rồi sửa `INVERT_LEFT` / `INVERT_RIGHT`, sau đó thử lại. Hiệu chỉnh `LEFT_TRIM`, `RIGHT_TRIM`, `TURN_45_MS` nếu cần.
 6. Dừng bằng **Ctrl+C**. Sau khi xe hoạt động đúng trên phần cứng, trong Thonny chọn **File → Save as → MicroPython device**, lưu tên **`main.py`** để tự chạy lúc ESP32 khởi động độc lập.
 
-**Lưu ý:** File `main.py` không được đưa sẵn vào kho để tránh vô tình tự chạy trước khi đấu nối/hiệu chỉnh đúng. Đừng lưu thành `main.py` khi chưa thử an toàn trên xe thật.
 
 
 ## 7. Tài liệu tham khảo
