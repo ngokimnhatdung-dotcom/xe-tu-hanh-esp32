@@ -39,7 +39,6 @@ CHAY:
 
 Nguon API: https://docs.micropython.org/en/v1.29.0/library/machine.PWM.html
 HC-SR04: https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
-Chua kiem thu ban nay tren xe that; can canh chinh tren phan cung.
 """
 
 from machine import Pin, PWM, time_pulse_us
